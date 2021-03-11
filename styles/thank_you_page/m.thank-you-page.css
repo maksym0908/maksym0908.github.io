@@ -133,8 +133,6 @@
         display: none;
     }
 
-
-    @media (max-width: 767px) {
         footer #footer-wrapper #contacts {
             display: grid;
             grid-template-areas: "c1" "c2" "c3" "e" "a" "s";
@@ -153,9 +151,11 @@
             grid-area: s;
         }   
         footer #footer-wrapper #contacts .email {
+            margin-top: 30px;
             grid-area: e;
         }   
         footer #footer-wrapper #contacts .address{
+            margin-bottom: 30px;
             grid-area: a;
         }   
         footer #footer-wrapper #contacts .contact1 a p, footer #footer-wrapper #contacts .contact2 a p, footer #footer-wrapper #contacts .contact3 a p {
@@ -207,8 +207,4 @@
         footer #copy {
             display: none;
         }
-    }
-
-
-
 }
