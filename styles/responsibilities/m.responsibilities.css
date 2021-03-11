@@ -15,10 +15,6 @@
     #responsibilities #responsibilities-wrapper #responsibilities-container #responsibilities-container-list #responsibilities-container-list-item {
         padding-bottom: 50px;
     }
-
-    #responsibilities #responsibilities-wrapper #responsibilities-container #responsibilities-container-list #responsibilities-container-list-item .responsibilities-container-list-item-heading {
-        padding-bottom: 30px;
-    }
     #responsibilities #responsibilities-wrapper #form {
         display: grid;
         grid-template-areas: "d" "i";  
